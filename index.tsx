@@ -52,6 +52,7 @@ const translations: Record<Language, any> = {
     price_label: "PREISE",
     contact_label: "ANFAHRT",
     contact_title: "Kontakt & Ort",
+    footer_location: "Standort",
     reservation_label: "TERMINE NUR NACH VEREINBARUNG",
     opening_label: "ZEITEN: DIENSTAG – FREITAG",
     opening_note: "TELEFONISCHE ANFRAGE ERFORDERLICH.",
@@ -109,6 +110,7 @@ const translations: Record<Language, any> = {
     price_label: "PRICES",
     contact_label: "LOCATION",
     contact_title: "Contact & Info",
+    footer_location: "Location",
     reservation_label: "APPOINTMENTS BY ARRANGEMENT ONLY",
     opening_label: "TIMES: TUESDAY – FRIDAY",
     opening_note: "TELEPHONE INQUIRY REQUIRED.",
@@ -421,7 +423,7 @@ const App = () => {
            </div>
            
            <div className="space-y-5">
-              <h4 className="text-[9px] font-black uppercase tracking-[0.2em] text-darkBrown border-b border-stone-100 pb-2">Lage</h4>
+              <h4 className="text-[9px] font-black uppercase tracking-[0.2em] text-darkBrown border-b border-stone-100 pb-2">{t.footer_location}</h4>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                    <MapPin className="w-4 h-4 text-gold shrink-0 mt-0.5" />

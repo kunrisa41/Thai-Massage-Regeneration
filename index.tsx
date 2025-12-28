@@ -26,15 +26,15 @@ const translations: Record<Language, any> = {
     nav_home: "Start",
     nav_treatments: "Anwendungen",
     nav_contact: "Kontakt",
-    nav_book: "Anfragen",
-    hero_title: "Thai Wellness für Frauen",
-    hero_subtitle: "Ihre persönliche Wohlfühlzeit in Erkelenz",
-    hero_tagline: "Regeneration · Wärme · Individuelle Betreuung",
+    nav_book: "Termin buchen",
+    hero_title: "Thai Massage für Frauen",
+    hero_subtitle: "im Oerather Mühlenfeld",
+    hero_tagline: "Nacken · Rücken · Wärme · Regeneration",
     hero_btn: "Anwendungen entdecken",
-    phil_label: "🌿 Ihre private Auszeit",
-    phil_title: "Ruhe und neue Energie finden",
-    phil_desc: "In meinem behaglichen Wohlfühlraum im Oerather Mühlenfeld biete ich Ihnen einen Rückzugsort vom Alltag. Jede Anwendung wird mit viel Ruhe und Sorgfalt durchgeführt, um gezielt Verspannungen im Nacken- und Rückenbereich zu lösen. Hier stehen Sie als Frau im Mittelpunkt – ganz ohne Hektik, in einer privaten und vertrauensvollen Atmosphäre.",
-    quality_title: "Persönlicher Qualitätsanspruch",
+    phil_label: "🌿 Ihre exklusive Auszeit",
+    phil_title: "Ruhe finden und neue Lebensenergie schöpfen",
+    phil_desc: "Tauchen Sie ein in eine world der vollkommenen Geborgenheit. In unserem behaglichen Wohlfühlraum im Oerather Mühlenfeld haben wir für Sie einen geschützten Rückzugsort geschaffen, fernab von der Hektik und den Anforderungen des Alltags. Jede einzelne Anwendung wird mit viel Ruhe, Achtsamkeit und höchster Sorgfalt durchgeführt, um gezielt tiefsitzende Verspannungen im Nacken- und Rückenbereich zu lösen. Bei uns stehen Sie als Frau mit Ihren individuellen Bedürfnissen im absoluten Mittelpunkt – ganz ohne Zeitdruck, in einer privaten und vertrauensvollen Atmosphäre, die Körper und Geist wieder in Einklang bringt.",
+    quality_title: "Unser Qualitätsversprechen",
     quality_item1_title: "Fachkundig",
     quality_item1_desc: "Zertifizierte Ausbildung mit Liebe zum Detail.",
     quality_item2_title: "Individuell",
@@ -43,55 +43,55 @@ const translations: Record<Language, any> = {
     quality_item3_desc: "Ein warmer, privater Ort zum Entspannen.",
     quality_item4_title: "Exklusiv",
     quality_item4_desc: "Ein geschützter Raum ausschließlich für Frauen.",
-    hinweis_title: "Gut zu wissen",
-    hinweis_line1: "Meine Anwendungen dienen der reinen Entspannung und Gesundheitsvorsorge.",
-    hinweis_line2: "Termine finden ausschließlich nach vorheriger Vereinbarung statt.",
-    hinweis_line3: "Professionelle Wellness-Anwendungen in privatem Ambiente.",
-    treatments_label: "Meine Anwendungen",
-    treatments_title: "Wohlfühlmomente",
+    hinweis_title: "ℹ️ Hinweis",
+    hinweis_line1: "Unsere Massagen dienen der Entspannung und dem Wohlbefinden.",
+    hinweis_line2: "Sie ersetzen keine ärztliche oder therapeutische Behandlung.",
+    hinweis_line3: "Keine Erotik – keine medizinischen Heilversprechen.",
+    treatments_label: "Unsere Anwendungen",
+    treatments_title: "Wohlfühlmomente für Sie",
     price_label: "HONORAR",
     contact_label: "ANFAHRT",
     contact_title: "Kontakt & Ort",
     reservation_label: "TERMINE NUR NACH VEREINBARUNG",
     opening_label: "ZEITEN: DIENSTAG – FREITAG",
     opening_note: "TELEFONISCHE ANFRAGE ERFORDERLICH.",
-    call_btn: "TERMIN ANFRAGEN",
-    book_now: "TERMIN ANFRAGEN",
+    call_btn: "TERMIN BUCHEN",
+    book_now: "JETZT BUCHEN",
     service1_title: "Nacken- & Rücken-Fokus",
-    service1_tag: "Gezielte Entspannung",
+    service1_tag: "Gezielte Tiefenentspannung",
     service1_intro: "BESONDERS WOHLTUEND BEI:",
     service1_bullets: [
-      "Verspannter Schultermuskulatur",
-      "Belastung durch Büroarbeit",
-      "Wunsch nach tieเฟอร์ Ruhe",
-      "Alltagssorgen einfach loslassen"
+      "Chronisch verspannter Schultermuskulatur",
+      "Einseitiger Belastung durch Büroarbeit",
+      "Mentaler Erschöpfung & Stress",
+      "Dem Wunsch nach innerer Stille"
     ],
-    service1_note: "Mit sanftem Druck und fließenden Bewegungen sorge ich für spürbare Erleichterung und Momente der Stille.",
+    service1_note: "Durch die Kombination aus gezieltem Druck und fließenden Streichbewegungen lösen wir Blockaden und sorgen für eine spürbare Entlastung Ihrer Muskulatur. Wir nehmen uns die Zeit, auf jede Verspannung individuell einzugehen, damit Sie mit einem Gefühl der Leichtigkeit in Ihren Alltag zurückkehren.",
     service1_effect_title: "Das Gefühl danach:",
     service1_effects: ["Leichtigkeit", "Innere Ruhe", "Vitalität"],
     service2_title: "Kombinations-Auszeit",
-    service2_tag: "Das Rundum-Wohlfühlpaket",
+    service2_tag: "Das ultimative Wohlfühlpaket",
     service2_intro: "EINE HARMONISCHE EINHEIT AUS:",
     service2_bullets: [
-      "Achtsamer Wellness-Massage",
-      "Tiefenwärme durch Hot-Stones",
-      "Duftenden Kräuterstempeln"
+      "klassische Thai-Nacken-Rückenmassage",
+      "intensive Tiefenwärme mit Hot-Stones",
+      "entspannender Abschluss mit Kräuterstempeln"
     ],
-    service2_note: "Gönnen Sie sich diese intensive Zeit der Regeneration – ideal zum Auftanken Ihrer Energiereserves."
+    service2_note: "Gönnen Sie sich diese intensive Zeit der Regeneration. Wir beginnen mit einer klassischen Massage zur Lockerung, nutzen dann die tiefenwirksame Wärme von Lavasteinen zur Muskelentspannung und schließen mit duftenden Kräuterstempeln ab, die Ihre Haut pflegen und Ihre Sinne beruhigen – ideal zum vollständigen Auftanken Ihrer Energiereserven."
   },
   en: {
     nav_home: "Home",
     nav_treatments: "Treatments",
     nav_contact: "Contact",
-    nav_book: "Inquiry",
-    hero_title: "Thai Wellness for Women",
-    hero_subtitle: "Your personal timeout in Erkelenz",
-    hero_tagline: "Regeneration · Warmth · Individual Care",
+    nav_book: "Book now",
+    hero_title: "Thai Massage for Women",
+    hero_subtitle: "in Oerather Mühlenfeld",
+    hero_tagline: "Neck · Back · Warmth · Regeneration",
     hero_btn: "Explore Treatments",
-    phil_label: "🌿 Your Private Retreat",
-    phil_title: "Find Peace and New Energy",
-    phil_desc: "In my cozy sanctuary in Oerather Mühlenfeld, I offer you a retreat from everyday life. Every session is performed with great peace and care, specifically to release tension in the neck and back area. Here, you are the focus – without haste, in a private and trusting atmosphere.",
-    quality_title: "Personal Quality Promise",
+    phil_label: "🌿 Your Exclusive Retreat",
+    phil_title: "Find Peace and Restore Life Energy",
+    phil_desc: "Immerse yourself in a world of complete security and comfort. In our cozy sanctuary in Oerather Mühlenfeld, we have created a protected retreat for you, far away from the hustle and bustle of everyday life. Every single session is performed with great peace, mindfulness, and the utmost care to specifically release deep-seated tension in the neck and back area. Here, you as a woman are the absolute focus with your individual needs – without any time pressure, in a private and trusting atmosphere that brings body and mind back into harmony.",
+    quality_title: "Our Quality Promise",
     quality_item1_title: "Expertise",
     quality_item1_desc: "Certified training with attention to detail.",
     quality_item2_title: "Individual",
@@ -100,11 +100,11 @@ const translations: Record<Language, any> = {
     quality_item3_desc: "A warm, private place to relax.",
     quality_item4_title: "Exclusive",
     quality_item4_desc: "A protected space exclusively for women.",
-    hinweis_title: "Good to know",
-    hinweis_line1: "My applications serve pure relaxation and health prevention.",
-    hinweis_line2: "Appointments take place exclusively by prior arrangement.",
-    hinweis_line3: "Professional wellness sessions in a private setting.",
-    treatments_label: "My Services",
+    hinweis_title: "ℹ️ Notice",
+    hinweis_line1: "Our massages serve for relaxation and well-being.",
+    hinweis_line2: "They do not replace medical or therapeutic treatment.",
+    hinweis_line3: "No erotica – no medical healing promises.",
+    treatments_label: "Our Services",
     treatments_title: "Moments of Well-being",
     price_label: "FEE",
     contact_label: "LOCATION",
@@ -112,29 +112,29 @@ const translations: Record<Language, any> = {
     reservation_label: "APPOINTMENTS BY ARRANGEMENT ONLY",
     opening_label: "TIMES: TUESDAY – FRIDAY",
     opening_note: "TELEPHONE INQUIRY REQUIRED.",
-    call_btn: "REQUEST APPOINTMENT",
-    book_now: "REQUEST APPOINTMENT",
+    call_btn: "BOOK NOW",
+    book_now: "BOOK NOW",
     service1_title: "Neck & Back Focus",
-    service1_tag: "Targeted Relaxation",
+    service1_tag: "Targeted Deep Relaxation",
     service1_intro: "ESPECIALLY BENEFICIAL FOR:",
     service1_bullets: [
-      "Tense shoulder muscles",
-      "Strain from office work",
-      "Desire for deep peace",
-      "Letting go of daily worries"
+      "Chronically tense shoulder muscles",
+      "Strains from office/desk work",
+      "Mental exhaustion & stress",
+      "Desire for inner silence"
     ],
-    service1_note: "With gentle pressure and flowing movements, I provide noticeable relief and moments of silence.",
+    service1_note: "Through a combination of targeted pressure and flowing movements, we release blockages and provide noticeable relief for your muscles. We take the time to address each tension individually so that you can return to your daily life with a feeling of lightness and renewed strength.",
     service1_effect_title: "The feeling after:",
     service1_effects: ["Lightness", "Inner peace", "Vitality"],
     service2_title: "Combination Timeout",
-    service2_tag: "Full Wellness Package",
+    service2_tag: "The Ultimate Wellness Package",
     service2_intro: "A HARMONIOUS BLEND OF:",
     service2_bullets: [
-      "Mindful wellness massage",
-      "Deep heat with hot stones",
-      "Fragrant herbal stamps"
+      "Classical Thai neck & back massage",
+      "Intense deep heat with hot stones",
+      "Relaxing finish with herbal stamps"
     ],
-    service2_note: "Treat yourself to this intensive time of regeneration – ideal for recharging your energy reserves."
+    service2_note: "Treat yourself to this intensive time of regeneration. We start with a classical massage for loosening, then use the deep-acting heat of volcanic stones for muscle relaxation, and finish with fragrant herbal stamps that nourish your skin and calm your senses – ideal for completely recharging your energy reserves."
   }
 };
 
@@ -177,8 +177,8 @@ const App = () => {
           <div className="flex items-center gap-2 md:gap-4 cursor-pointer" onClick={() => window.scrollTo({top:0, behavior:'smooth'})}>
             <img src={shopInfo.logoUrl} alt="Logo" className={`${scrolled ? 'h-8 md:h-11' : 'h-10 md:h-15'} transition-all`} />
             <div className="flex flex-col">
-              <span className="font-serif font-bold text-[9px] sm:text-xs md:text-sm tracking-wider uppercase leading-tight" style={{ color: colors.darkRed }}>Thai Wellness für Frauen</span>
-              <span className="text-[6px] sm:text-[7px] md:text-[9px] uppercase tracking-[0.2em] font-medium opacity-80" style={{ color: colors.veryDarkRed }}>Privat & Exklusiv</span>
+              <span className="font-serif font-bold text-[9px] sm:text-xs md:text-sm tracking-wider uppercase leading-tight" style={{ color: colors.darkRed }}>Thai Massage für Frauen</span>
+              <span className="text-[6px] sm:text-[7px] md:text-[9px] uppercase tracking-[0.2em] font-medium opacity-80" style={{ color: colors.veryDarkRed }}>im Oerather Mühlenfeld</span>
             </div>
           </div>
 
@@ -242,7 +242,7 @@ const App = () => {
                  <Heart className="w-4 h-4" style={{ color: colors.darkRed }} />
                  <span className="text-[9px] md:text-[12px] font-black uppercase tracking-widest" style={{ color: colors.darkRed }}>{t.phil_label}</span>
               </div>
-              <h2 className="text-xl md:text-3xl font-serif leading-tight font-bold">{t.phil_title}</h2>
+              <h2 className="text-xl md:text-4xl font-serif leading-tight font-bold">{t.phil_title}</h2>
               <div className="w-12 h-1 rounded-full" style={{ backgroundColor: colors.gold }}></div>
               <p className="text-stone-600 text-sm md:text-lg leading-relaxed font-light">{t.phil_desc}</p>
            </div>
@@ -303,9 +303,12 @@ const App = () => {
                 <p className="text-stone-500 text-sm md:text-base leading-relaxed">{t.service2_note}</p>
                 <div className="space-y-4">
                    <span className="text-gold text-[9px] font-black uppercase tracking-widest block">{t.service2_intro}</span>
-                   <div className="flex flex-wrap gap-3">
+                   <div className="flex flex-col gap-3">
                      {(t.service2_bullets as string[]).map((b, i) => (
-                       <span key={i} className="bg-stone-50 border border-stone-100 px-4 py-2 rounded-xl text-[10px] md:text-xs font-bold text-darkBrown">{b}</span>
+                       <div key={i} className="flex items-start gap-3 bg-stone-50 border border-stone-100 px-4 py-3 rounded-xl">
+                          <Check className="w-4 h-4 text-gold shrink-0 mt-0.5" />
+                          <span className="text-[10px] md:text-xs font-bold text-darkBrown uppercase tracking-wider">{b}</span>
+                       </div>
                      ))}
                    </div>
                 </div>
@@ -326,14 +329,18 @@ const App = () => {
               </div>
             </div>
 
-            <div className="bg-white/35 backdrop-blur-md border border-white/40 rounded-[2rem] p-8 md:p-10 flex flex-col md:flex-row items-center gap-6 shadow-sm">
-               <div className="p-4 rounded-full bg-white/60 flex-shrink-0 shadow-sm">
-                  <Info className="w-8 h-8" style={{ color: colors.darkGold }} />
+            <div className="bg-white/90 backdrop-blur-md border border-white/40 rounded-[2.5rem] p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 shadow-2xl relative overflow-hidden">
+               <div className="absolute top-0 left-0 w-2 h-full bg-gold"></div>
+               <div className="p-5 rounded-full bg-gold/10 flex-shrink-0 shadow-inner">
+                  <Info className="w-10 h-10" style={{ color: colors.darkGold }} />
                </div>
-               <div className="text-center md:text-left space-y-1.5">
-                  <p className="text-white text-lg font-serif font-bold uppercase tracking-wide">{t.hinweis_title}</p>
-                  <p className="text-white/95 text-xs md:text-sm font-light leading-relaxed">{t.hinweis_line1} {t.hinweis_line2}</p>
-                  <p className="text-[10px] md:text-xs font-black uppercase tracking-[0.2em] pt-0.5" style={{ color: colors.darkGold }}>{t.hinweis_line3}</p>
+               <div className="text-center md:text-left space-y-3">
+                  <h4 className="text-darkBrown text-xl font-serif font-bold uppercase tracking-wide">{t.hinweis_title}</h4>
+                  <div className="space-y-1">
+                    <p className="text-stone-600 text-sm md:text-base font-medium leading-relaxed">{t.hinweis_line1}</p>
+                    <p className="text-stone-600 text-sm md:text-base font-medium leading-relaxed">{t.hinweis_line2}</p>
+                  </div>
+                  <p className="text-[11px] md:text-xs font-black uppercase tracking-[0.25em] pt-1" style={{ color: colors.darkRed }}>{t.hinweis_line3}</p>
                </div>
             </div>
           </div>
@@ -430,7 +437,7 @@ const App = () => {
            </div>
         </div>
         <div className="max-w-6xl mx-auto pt-10 mt-10 border-t border-stone-100 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-[8px] font-bold uppercase tracking-[0.3em] opacity-40">© Thai Wellness für Frauen. All Rights Reserved.</p>
+          <p className="text-[8px] font-bold uppercase tracking-[0.3em] opacity-40">© Thai Massage für Frauen. All Rights Reserved.</p>
         </div>
       </footer>
     </div>

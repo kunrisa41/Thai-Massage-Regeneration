@@ -32,8 +32,8 @@ const translations: Record<Language, any> = {
     hero_tagline: "Nacken · Rücken · Wärme · Regeneration",
     hero_btn: "Anwendungen entdecken",
     phil_label: "🌿 Ihre exklusive Auszeit",
-    phil_title: "Ruhe finden und neue Lebensenergie schöpfen",
-    phil_desc: "Tauchen Sie ein in eine world der vollkommenen Geborgenheit. In unserem behaglichen Wohlfühlraum im Oerather Mühlenfeld haben wir für Sie einen geschützten Rückzugsort geschaffen, fernab von der Hektik und den Anforderungen des Alltags. Jede einzelne Anwendung wird mit viel Ruhe, Achtsamkeit und höchster Sorgfalt durchgeführt, um gezielt tiefsitzende Verspannungen im Nacken- und Rückenbereich zu lösen. Bei uns stehen Sie als Frau mit Ihren individuellen Bedürfnissen im absoluten Mittelpunkt – ganz ohne Zeitdruck, in einer privaten und vertrauensvollen Atmosphäre, die Körper und Geist wieder in Einklang bringt.",
+    phil_title: "Gezielte Regeneration",
+    phil_desc: "In unserem behaglichen Wohlfühlraum im Oerather Mühlenfeld finden Sie einen geschützten Rückzugsort vom Alltag. Jede Anwendung wird mit höchster Sorgfalt durchgeführt, um Verspannungen im Nacken- und Rückenbereich gezielt zu lösen. Bei uns stehen Sie als Frau im Mittelpunkt – ohne Zeitdruck, in einer privaten und vertrauensvollen Atmosphäre.",
     quality_title: "Unser Qualitätsversprechen",
     quality_item1_title: "Fachkundig",
     quality_item1_desc: "Zertifizierte Ausbildung mit Liebe zum Detail.",
@@ -49,7 +49,7 @@ const translations: Record<Language, any> = {
     hinweis_line3: "Keine Erotik – keine medizinischen Heilversprechen.",
     treatments_label: "Unsere Anwendungen",
     treatments_title: "Wohlfühlmomente für Sie",
-    price_label: "HONORAR",
+    price_label: "PREISE",
     contact_label: "ANFAHRT",
     contact_title: "Kontakt & Ort",
     reservation_label: "TERMINE NUR NACH VEREINBARUNG",
@@ -89,8 +89,8 @@ const translations: Record<Language, any> = {
     hero_tagline: "Neck · Back · Warmth · Regeneration",
     hero_btn: "Explore Treatments",
     phil_label: "🌿 Your Exclusive Retreat",
-    phil_title: "Find Peace and Restore Life Energy",
-    phil_desc: "Immerse yourself in a world of complete security and comfort. In our cozy sanctuary in Oerather Mühlenfeld, we have created a protected retreat for you, far away from the hustle and bustle of everyday life. Every single session is performed with great peace, mindfulness, and the utmost care to specifically release deep-seated tension in the neck and back area. Here, you as a woman are the absolute focus with your individual needs – without any time pressure, in a private and trusting atmosphere that brings body and mind back into harmony.",
+    phil_title: "Targeted Regeneration",
+    phil_desc: "In our cozy sanctuary in Oerather Mühlenfeld, you will find a protected retreat from everyday life. Every session is performed with the utmost care to specifically release tension in the neck and back area. Here, you are the focus – without haste, in a private and trusting atmosphere.",
     quality_title: "Our Quality Promise",
     quality_item1_title: "Expertise",
     quality_item1_desc: "Certified training with attention to detail.",
@@ -106,7 +106,7 @@ const translations: Record<Language, any> = {
     hinweis_line3: "No erotica – no medical healing promises.",
     treatments_label: "Our Services",
     treatments_title: "Moments of Well-being",
-    price_label: "FEE",
+    price_label: "PRICES",
     contact_label: "LOCATION",
     contact_title: "Contact & Info",
     reservation_label: "APPOINTMENTS BY ARRANGEMENT ONLY",
@@ -290,7 +290,7 @@ const App = () => {
                 <span className="text-[10px] font-black text-stone-400 uppercase tracking-[0.3em]">{t.price_label}</span>
                 <div className="flex-1 flex flex-col justify-center py-6">
                   <div className="text-5xl md:text-6xl font-serif font-bold">€50</div>
-                  <span className="text-[9px] font-black opacity-30 uppercase tracking-[0.2em] mt-2">60 MIN</span>
+                  <span className="text-[9px] font-black opacity-30 uppercase tracking-widest mt-2">60 MIN</span>
                 </div>
                 <a href={shopInfo.phoneLink} className="w-full py-5 rounded-xl text-white text-[10px] font-black uppercase tracking-widest shadow-lg transition-all hover:scale-105" style={{ backgroundColor: colors.darkRed }}>{t.book_now}</a>
               </div>
@@ -318,11 +318,11 @@ const App = () => {
                 <div className="flex-1 flex flex-col justify-center py-6 w-full gap-8">
                     <div className="space-y-1">
                       <div className="text-4xl md:text-5xl font-serif font-bold">€75</div>
-                      <span className="text-[9px] font-black opacity-30 uppercase tracking-[0.2em]">90 MIN</span>
+                      <span className="text-[9px] font-black opacity-30 uppercase tracking-widest">90 MIN</span>
                     </div>
                     <div className="space-y-1">
                       <div className="text-4xl md:text-5xl font-serif font-bold">€100</div>
-                      <span className="text-[9px] font-black opacity-30 uppercase tracking-[0.2em]">120 MIN</span>
+                      <span className="text-[9px] font-black opacity-30 uppercase tracking-widest">120 MIN</span>
                     </div>
                 </div>
                 <a href={shopInfo.phoneLink} className="w-full py-5 rounded-xl text-white text-[10px] font-black uppercase tracking-widest shadow-lg transition-all hover:scale-105" style={{ backgroundColor: colors.darkRed }}>{t.book_now}</a>
